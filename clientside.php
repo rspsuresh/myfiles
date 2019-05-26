@@ -78,8 +78,12 @@
 
     Garbage Collection (GC) in PHP can have a serious impact on memory and performance.performance consideratios.
 	
+11. How to check both the arrays have same values or not in ts?
 
-       
+    var A=[1,2,3];
+    var B=[3,2,1];
+    A.every(e=>B.includes(e))
+    // returns boolean
   
      
 
