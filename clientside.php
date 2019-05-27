@@ -85,7 +85,13 @@
     A.every(e=>B.includes(e))
     // returns boolean
   
-     
+12. How to combine or merge objects in js?\
+    
+    const target = { a: 1, b: 2 };
+    const source = { b: 4, c: 5 };
+
+    const returnedTarget = Object.assign(target, source); //{a: 1, b: 4, c: 5}
+
 
       
       
