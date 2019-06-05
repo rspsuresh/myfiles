@@ -78,7 +78,31 @@
 
     Garbage Collection (GC) in PHP can have a serious impact on memory and performance.performance consideratios.
 	
+11.     Language 	: PHP
+	Topic    	: Array
+	Function 	: Compact()
+	Description : Create array containing variables and their values 
+	Example 
+	-------
+	<?php
+	$city  = "San Francisco";
+	$state = "CA";
+	$event = "SIGGRAPH";
 
+	$location_vars = array("city", "state");
+
+	$result = compact("event", "nothing_here", $location_vars);
+	print_r($result);
+	?>
+
+	Output
+	------
+	Array
+	(
+	    [event] => SIGGRAPH
+	    [city] => San Francisco
+	    [state] => CA
+	)
        
   
      
