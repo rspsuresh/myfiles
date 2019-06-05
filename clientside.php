@@ -93,7 +93,9 @@
     const returnedTarget = Object.assign(target, source); //{a: 1, b: 4, c: 5}
 
 
-      
+  13. Why * is used in Angular 2+ ?
+    
+      https://angular.io/guide/structural-directives#asterisk
       
 
       
