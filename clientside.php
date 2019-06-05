@@ -97,7 +97,18 @@
     
       https://angular.io/guide/structural-directives#asterisk
       
+  14. Language	:	Javascript
+	Concept	:	Swaping
+	Example
+	-------
+	let a = 'world';
+	let b = 'hello';
+	[a, b] = [b, a]
 
+	Output
+	------
+	console.log(a) // -> hello
+	console.log(b) // -> world
       
 
 
