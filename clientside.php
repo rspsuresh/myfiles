@@ -109,7 +109,16 @@
 	------
 	console.log(a) // -> hello
 	console.log(b) // -> world
-      
+
+  15. Best way of validation for checking array is valid or not
+
+	var $array = [];
+	if($array && $array.constructor === Array && $array.length === 0) 
+      		// strictly an empty array
+	else 
+		// not an empty array
+
+	Ref URL : https://www.quora.com/How-do-you-check-if-an-array-is-empty-in-JavaScript
 
 
    
