@@ -112,7 +112,7 @@
 
   15. Best way of validation for checking array is valid or not
 
-	var $array = [];
+	let $array = [];
 	if($array && $array.constructor === Array && $array.length === 0) 
       		// strictly an empty array
 	else 
