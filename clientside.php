@@ -120,6 +120,9 @@
 
 	Ref URL : https://www.quora.com/How-do-you-check-if-an-array-is-empty-in-JavaScript
 
+ 16. break ,continue ,return javascript foreach
+   https://github.com/rspsuresh/myfiles
+
 
    
    
