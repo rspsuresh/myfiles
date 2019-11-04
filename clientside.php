@@ -123,6 +123,8 @@
  16. break ,continue ,return javascript foreach
    https://github.com/rspsuresh/myfiles
 
+ 17.https://dev.to/bettercodingacademy/functional-programming-all-you-need-to-know-about-currying-5k7
+
 
    
    
