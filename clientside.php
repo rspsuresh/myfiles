@@ -131,6 +131,11 @@
 
  19:back tik  --https://thebittheories.com/the-3-advantages-of-backtick-literals-in-javascript-f6beade4a9cf
 
+ 20.let myNaN = NaN; // or let myNan = Number.NaN
+    console.log(typeof myNaN); // "number"
+    console.log(myNaN == NaN); // false
+    console.log(myNaN === NaN); // false
+
 
    
    
