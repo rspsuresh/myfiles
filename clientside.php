@@ -129,6 +129,8 @@
     data = await fetch(url).then(resp => resp.json());
     console.table(data);
 
+ 19:back tik  --https://thebittheories.com/the-3-advantages-of-backtick-literals-in-javascript-f6beade4a9cf
+
 
    
    
