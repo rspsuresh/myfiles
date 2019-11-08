@@ -125,6 +125,10 @@
 
  17.https://dev.to/bettercodingacademy/functional-programming-all-you-need-to-know-about-currying-5k7
 
+ 18.const url = "https://jsonplaceholder.typicode.com/users";
+    data = await fetch(url).then(resp => resp.json());
+    console.table(data);
+
 
    
    
