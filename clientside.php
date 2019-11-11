@@ -136,6 +136,9 @@
     console.log(myNaN == NaN); // false
     console.log(myNaN === NaN); // false
 
+ 21 data-pace-options
+    https://stackoverflow.com/questions/26057017/how-to-stop-pace-js-plugin-to-run-on-page-load-i-want-to-fix-only-on-ajax-reque 
+
 
    
    
