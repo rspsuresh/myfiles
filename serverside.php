@@ -111,6 +111,7 @@
 	echo $age;
 	echo $year;
 	?>
+ 13 . The join() function is an alias of the implode() function.
 
       
       
