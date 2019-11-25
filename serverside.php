@@ -103,9 +103,14 @@
 	    [city] => San Francisco
 	    [state] => CA
 	)
-       
-  
+ 12. parse_str
      
+	<?php
+	parse_str("name=Peter&age=43&year=2019");
+	echo $name."<br>";
+	echo $age;
+	echo $year;
+	?>
 
       
       
