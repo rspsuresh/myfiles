@@ -139,6 +139,8 @@
  21 data-pace-options
     https://stackoverflow.com/questions/26057017/how-to-stop-pace-js-plugin-to-run-on-page-load-i-want-to-fix-only-on-ajax-reque 
 
+ 22.https://dev.mysql.com/doc/refman/5.7/en/json.html
+
 
    
    
