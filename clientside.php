@@ -141,6 +141,12 @@
 
  22.https://dev.mysql.com/doc/refman/5.7/en/json.html
 
+ 23.const object = { x: 42, y: 50 };
+	const entries = Object.entries(object);
+	// → [['x', 42], ['y', 50]]
+
+	const result = Object.fromEntries(entries);
+	// → { x: 42, y: 50 }
 
    
    
