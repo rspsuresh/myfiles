@@ -147,6 +147,8 @@
 
 	const result = Object.fromEntries(entries);
 	// → { x: 42, y: 50 }
+ 24.Configuring Environment as different level like qa,prod,dev
+     https://medium.com/@balramchavan/configure-and-build-angular-application-for-different-environments-7e94a3c0af23
 
    
    
