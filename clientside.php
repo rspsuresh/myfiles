@@ -150,6 +150,16 @@
  24.Configuring Environment as different level like qa,prod,dev
      https://medium.com/@balramchavan/configure-and-build-angular-application-for-different-environments-7e94a3c0af23
 
+ 25.Life cycle hooks order
+	ngOnChanges()
+	ngOnInit()
+	ngDoCheck()
+	ngAfterContentInit()
+	ngAfterContentChecked()
+	ngAfterViewInit()
+	ngAfterViewChecked()
+	ngOnDestroy()
+
    
    
    
