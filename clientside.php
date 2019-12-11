@@ -159,6 +159,8 @@
 	ngAfterViewInit()
 	ngAfterViewChecked()
 	ngOnDestroy()
+  26.ng2 smart table
+     https://akveo.github.io/ng2-smart-table/#/demo
 
    
    
