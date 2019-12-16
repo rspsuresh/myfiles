@@ -162,7 +162,5 @@
   26.ng2 smart table
      https://akveo.github.io/ng2-smart-table/#/demo
 
-   
-   
-   
-	
+  27.Angular Building Blocks
+     Modules,Components,Templates,Metadata,Databinding,Services,Directives (Components Directive,Structural Directive,Attribute Directive),Dependency Injection 
