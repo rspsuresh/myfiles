@@ -177,3 +177,39 @@
 	&& => it will return first falsy value otherwise return last truthy value
 
 	?? => if left value is not undefined or null then it will return left side value otherwise right side value return
+
+  29.How to Deep Copy Objects and Arrays in JavaScript
+
+	1. Shallow copy using With Spread operator (...)
+		var orginalArray = ['santhosh','suresh','mani'];
+		var copyWithEquals = orginalArray;
+		var copyWithSpread = [];
+		copyWithSpread = [...orginalArray];
+
+		orginalArray[0] = 'santhosh_kumar';
+
+		console.log(...orginalArray);
+		console.log(...copyWithEquals);
+		console.log(...copyWithSpread);
+	2. Shallow copy useing with (.slice());
+		var orginalArray = ['santhosh','suresh','mani'];
+		var copyWithEquals = orginalArray;
+		var copyWithSpread = [];
+		copyWithSpread = orginalArray.slice();
+
+		orginalArray[0] = 'santhosh_kumar';
+
+		console.log(...orginalArray);
+		console.log(...copyWithEquals);
+		console.log(...copyWithSpread);
+	3. Shallow copy useing with (.assign());
+		var orginalArray = ['santhosh','suresh','mani'];
+		var copyWithEquals = orginalArray;
+		var copyWithSpread = [];
+		Object.assign(copyWithSpread,orginalArray) // Object.assign(target,source)
+
+		orginalArray[0] = 'santhosh_kumar';
+
+		console.log(...orginalArray);
+		console.log(...copyWithEquals);
+		console.log(...copyWithSpread);
