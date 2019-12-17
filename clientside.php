@@ -164,3 +164,16 @@
 
   27.Angular Building Blocks
      Modules,Components,Templates,Metadata,Databinding,Services,Directives (Components Directive,Structural Directive,Attribute Directive),Dependency Injection 
+ 
+  28.var a = 0;
+	var b = 0;
+
+	a || b;
+	a && b;
+	a ?? b;
+
+	|| => it will return first truthy value otherwise return last false value
+
+	&& => it will return first falsy value otherwise return last truthy value
+
+	?? => if left value is not undefined or null then it will return left side value otherwise right side value return
