@@ -221,3 +221,9 @@ Accessible From	Any Window	Any Window	Same Tab
 Expires	Manually Set	Never	On tab close
 Storage Location	Browser and Server	Browser Only	Browser Only
 Sent With Requests	Yes	No	No
+
+ 31.What is pure or impure pipe?
+
+	In simple words,
+	impure-pipe works for every change in the component
+	pure-pipe works only when the component is loaded.
