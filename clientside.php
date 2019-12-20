@@ -213,3 +213,11 @@
 		console.log(...orginalArray);
 		console.log(...copyWithEquals);
 		console.log(...copyWithSpread);
+ 30. Cookies Vs Local Storage Vs Session Storage
+	       Cookies	Local Storage 	Session Storage
+Capacity	4KB	10MB	5MB
+Browsers	HTML4 / HTML5	HTML5	HTML5
+Accessible From	Any Window	Any Window	Same Tab
+Expires	Manually Set	Never	On tab close
+Storage Location	Browser and Server	Browser Only	Browser Only
+Sent With Requests	Yes	No	No
