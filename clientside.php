@@ -227,3 +227,6 @@ Sent With Requests	Yes	No	No
 	In simple words,
 	impure-pipe works for every change in the component
 	pure-pipe works only when the component is loaded.
+
+32.Difference between rxjs and ajax?
+   
