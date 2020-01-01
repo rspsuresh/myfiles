@@ -229,4 +229,10 @@ Sent With Requests	Yes	No	No
 	pure-pipe works only when the component is loaded.
 
 32.Difference between rxjs and ajax?
+   rxjs ->we can break request call
+   ajax ->cant break request call
+33.Avoid using multiple IF in  js side
+   var user={'name':'suresh'};
+   const message =user && user.name && `Hello ,${user.name}`;
+   console.log(message);
    
