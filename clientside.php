@@ -235,4 +235,23 @@ Sent With Requests	Yes	No	No
    var user={'name':'suresh'};
    const message =user && user.name && `Hello ,${user.name}`;
    console.log(message);
+
+34.You can see two objects below, so i want access first object property and methods from second object, how can we achive this secnarios,
+
+	   Solution:
+	let obj1 = { 
+		name: 'santhosh',
+		getName(){ 
+			alert("first Object getName called");
+			}
+		};
+	let obj2 = {
+			mobile: '9884937084',
+			getMobile(){
+				alert("seconde Object getMobile called");
+			},
+			__proto__: obj1
+		};
+
+	https://javascript.info/prototype-inheritance
    
