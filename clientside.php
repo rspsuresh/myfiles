@@ -254,4 +254,9 @@ Sent With Requests	Yes	No	No
 		};
 
 	https://javascript.info/prototype-inheritance
-   
+   35.ES2015 a.k.a. ES6
+      ES2016 a.k.a. ES7
+      ES2017 a.k.a. ES8
+      ES2018 a.k.a. ES9
+      ES2019 a.k.a. ES10
+      ES2020 a.k.a. ES11
