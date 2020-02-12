@@ -260,3 +260,11 @@ Sent With Requests	Yes	No	No
       ES2018 a.k.a. ES9
       ES2019 a.k.a. ES10
       ES2020 a.k.a. ES11
+
+36/alternate way for arrow function(bind)
+ this.moduleService.getModuleBasedAccess(this.formParms).subscribe(
+        function(data){
+          this.accessList = data['data'].data.moduleAccess;
+          console.log(this.accessList);
+        }.bind(this)
+      )
