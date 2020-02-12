@@ -261,10 +261,56 @@ Sent With Requests	Yes	No	No
       ES2019 a.k.a. ES10
       ES2020 a.k.a. ES11
 
-36/alternate way for arrow function(bind)
+36 .alternate way for arrow function(bind)
  this.moduleService.getModuleBasedAccess(this.formParms).subscribe(
         function(data){
           this.accessList = data['data'].data.moduleAccess;
           console.log(this.accessList);
         }.bind(this)
       )
+37 .Function scoping
+
+   Challange#1
+===========
+	const call = {
+		caller: "mom", 
+		says: function() {
+			console.log(`Hey, ${this.caller} just called.`);
+		}
+	};
+
+	call.says();
+
+	Here we have a function declaration inside the call object. As a general rule, 'this' is determined by the object invoking a function. Therefore, when the call object invokes says function (call.says()), the 'this' keyword inside the says function refers to the call object, making this.caller equal to "mom".
+	
+Challange#2
+===========
+	const call = {
+	  caller: "mom", 
+	  says: () => {
+		console.log(`Hey, ${this.caller} just called.`);
+	  }
+	};
+
+	call.says();
+	
+	Arrow functions, as part of ES6 syntax, do NOT have their own 'this' keyword. Instead, they will use the 'this' keyword of whatever 'this' was outside the function when it was created.
+	
+	In other words, 'this' inside the arrow function is not bound to our call object, but instead is already bound to where the call object is being created originally
+
+Challage#3
+==========
+	const call = {
+		caller: "mom", 
+		says: function() {
+			console.log(`Hey, ${this.caller} just called.`);
+		}
+	};
+
+	let newCall = call.says;
+
+	newCall();
+	
+	Here, we assign a new variable to the says function inside the call object. And then we invoke the variable, which is a simple function call.
+
+	Notice where we invoke the function. Is it inside the call object? No. We are invoking newCall() function globally, which in turn makes the 'this' keyword equal to the global object.
