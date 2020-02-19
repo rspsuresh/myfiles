@@ -314,3 +314,18 @@ Challage#3
 	Here, we assign a new variable to the says function inside the call object. And then we invoke the variable, which is a simple function call.
 
 	Notice where we invoke the function. Is it inside the call object? No. We are invoking newCall() function globally, which in turn makes the 'this' keyword equal to the global object.
+
+38: The toJSON method
+	We have one method named toJSON which can be a part of any object as its property. JSON.stringify returns the result of this function and stringifies it instead of converting the whole object into the string. See this example.
+	const user = {
+	 firstName : "Prateek",
+	 lastName : "Singh",
+	 age : 26,
+	 toJSON() {
+	    return { 
+	      fullName: `${this.firstName} + ${this.lastName}`
+	    };
+	}
+	console.log(JSON.stringify(user));
+	RESULT
+	// "{ "fullName" : "Prateek Singh"}"
