@@ -291,6 +291,9 @@ Challange#2
 		console.log(`Hey, ${this.caller} just called.`);
 	  }
 	};
+39. InnerHtml and interpolation
+     InnerHtml ==>display conversion html tag
+     Interpolation=directily displays html tag as sting
 
 	call.says();
 	
