@@ -332,3 +332,7 @@ Challage#3
 	console.log(JSON.stringify(user));
 	RESULT
 	// "{ "fullName" : "Prateek Singh"}"
+
+39 .var tt=1;
+tt && testfun();
+function testfun(){ alert('test');}
