@@ -336,3 +336,8 @@ Challage#3
 39 .var tt=1;
 tt && testfun();
 function testfun(){ alert('test');}
+
+40 .Break privilages of file
+	$oldmask = umask(0);
+	mkdir("test", 0777);
+	umask($oldmask);
