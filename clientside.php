@@ -341,3 +341,11 @@ function testfun(){ alert('test');}
 	$oldmask = umask(0);
 	mkdir("test", 0777);
 	umask($oldmask);
+
+41. assign
+	let first = {name: 'Tony'};
+	let last = {lastName: 'Stark'};
+	let person = Object.assign(first, last);
+	console.log(person);
+	// {name: 'Tony', lastName: 'Stark'}
+	console.log(first);
