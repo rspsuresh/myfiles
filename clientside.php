@@ -349,3 +349,6 @@ function testfun(){ alert('test');}
 	console.log(person);
 	// {name: 'Tony', lastName: 'Stark'}
 	console.log(first);
+42. Difference between seal and freeze in javascript
+    freeze->cannot add and alter object property
+    seal->alter object property but not to add any new property into object
