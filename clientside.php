@@ -356,4 +356,9 @@ function testfun(){ alert('test');}
 43.Purpose of preinit() in yii2
     
    preInit() is called, which configures some high priority application properties, such as basePath.
- 
+
+44.Speed up yarn install
+   npm install => 121 sec
+  yarn install => 73 sec
+  npm set progress=off; npm install => 68 sec
+  yarn install --prefer-offline => 47 sec
