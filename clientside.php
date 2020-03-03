@@ -352,3 +352,8 @@ function testfun(){ alert('test');}
 42. Difference between seal and freeze in javascript
     freeze->cannot add and alter object property
     seal->alter object property but not to add any new property into object
+
+43.Purpose of preinit() in yii2
+    
+   preInit() is called, which configures some high priority application properties, such as basePath.
+ 
