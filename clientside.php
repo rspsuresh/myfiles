@@ -362,3 +362,5 @@ function testfun(){ alert('test');}
   yarn install => 73 sec
   npm set progress=off; npm install => 68 sec
   yarn install --prefer-offline => 47 sec
+
+45. PEAR, PECL, and composer are PHP package managers.
